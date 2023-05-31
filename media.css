@@ -1,0 +1,139 @@
+.home-content span::after {
+
+  animation: changeWord 3s ease-in alternate infinite;
+}
+
+@keyframes changeWord {
+  0% {
+    visibility: visible;
+    content: "";
+    left: 0;
+  }
+
+  3% {
+    visibility: visible;
+    content: "D";
+
+  }
+
+  6% {
+    visibility: visible;
+    content: "De";
+  }
+
+  9% {
+    visibility: visible;
+    content: "Des";
+  }
+
+  13% {
+    visibility: visible;
+    content: "Desi";
+  }
+
+  16% {
+    visibility: visible;
+    content: "Desig"
+  }
+
+  20% {
+    visibility: visible;
+    content: "Design";
+  }
+
+  23% {
+    visibility: visible;
+    content: "Designe";
+  }
+  26%{
+    visibility: visible;
+    content: "Designer";
+  }
+  30%{
+    visibility: visible;
+    content: "Designe";
+  }
+  33%{
+    visibility: visible;
+    content: "Design";
+  }
+  36%{
+    visibility: visible;
+    content: "Desig";
+  }
+  40%{
+    visibility: visible;
+    content: "Desi";
+  }
+  43%{
+    visibility: visible;
+    content: "Des";
+  }
+  46%{
+    visibility: visible;
+    content: "De";
+  }
+  50%{
+    visibility: visible;
+    content: "D";
+  }
+  53%{
+    visibility: visible;
+    content: "";
+  }
+  56%{
+    visibility: visible;
+    content: "D";
+  }
+  60%{
+    visibility: visible;
+    content: "De";
+  }
+  63%{
+    visibility: visible;
+    content: "Dev";
+  }
+  66%{
+    visibility: visible;
+    content: "Deve";
+  }
+  70%{
+    visibility: visible;
+    content: "Devel";
+  }
+  73%{
+    visibility: visible;
+    content: "Develo";
+  }
+  76%{
+    visibility: visible;
+    contain: "Develop";
+  }
+  80%{
+    visibility: visible;
+    content: "Develope";
+  }
+  100%{
+    visibility: visible;
+    content: "Developer";
+    left: 0;
+  }
+
+  
+}
+
+.home-content span {
+  animation: replace 3s ease alternate infinite;
+  /* transition: all 0.3 ease; */
+}
+
+@keyframes replace {
+   0% {
+    visibility: hidden;
+  } 
+
+  100% {
+
+    visibility: hidden;
+  } 
+}
